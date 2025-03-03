@@ -48,6 +48,23 @@ The project uses **SQLite** for data storage. Ensure the database file is create
    - Verify your **Google Maps API key** in `index.html`.
    - Check browser **console logs (F12 → Console tab)**.
 
-### **5. Start the Android app **
-1. Install the android application and press "Start"
+---
 
+### **5. Edit the url under val requestBody(line 118) in MainActivity.kt **
+1. Open MainActivity.kt and replace the url with your server.js address. For example if your server.js is running on abc.com then change the url to "abc.com/location"
+
+---
+
+### **6. Edit the url under  private fun requestDeviceId (line 62) in MainActivity.kt **
+1. Open MainActivity.kt and replace the url with your server.js address. For example if your server.js is running on abc.com then change the url to "abc.com/assignBusId"
+
+---
+
+### **6. Build the project then generate a signed APK **
+
+---
+
+### **7. Install the Android application **
+1. Install the android application, open it and press "Start"
+
+---
